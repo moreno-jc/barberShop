@@ -13,8 +13,6 @@ nav{
 }
 nav ul {
     list-style: none;
-    padding: 0;
-    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,6 +33,11 @@ nav a{
     font-size: 20px;
     text-decoration: none;
 }
+
+nav a:hover{
+    color: #c29115;
+    text-decoration: underline;
+}
 .logo-nav{
     width: 6rem;
     padding: 5px;
@@ -47,7 +50,9 @@ nav a{
     font-family:'Merriweather Sans';
     text-transform: uppercase;
 }
-h2{
+
+
+.text-title h2{
     font-weight: bold;
     font-size: 3rem;
     margin-left: 5rem;
@@ -59,15 +64,31 @@ h4{
     margin-left: 6rem;
 }
 
+.container-products{
+    display: flex;
+    justify-content: center;
+}
+
+.title-product{
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.container-products{
+    display: flex;
+    justify-content: center;
+}
 .list-products{
-    width: 80%;
+    width: 80em;
     padding: 5em;
+    display: flex;
+    justify-content: center;
     margin-inline-start: 5%;
-    margin-inline-end: 5%;
+
 }
 .list-products li{
-    margin: 1em 1em 1em 1em;
-    padding: .2em;
+    margin: 0 5%;
+    padding: 1em;
     border-radius: 5%;
     border: 4px double #c29115;
     background-color: white;
@@ -75,17 +96,58 @@ h4{
     display: inline-block;
     text-align: center;
     width: 30%;
+    height: 25em; 
+    
+}
+
+.list-products li:hover{
+    border: 4px double white;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.list-products li:hover h2{
+    font-size: 35px;
 }
 
 .list-products h2{
     font-weight: bold;
     font-size: 2rem;
-
 }
 
 .products-img{
-    width: 12rem;
-    padding: 0;
-    margin: 0;
+    margin-top: 1em;
+    width: 11em ;
+    height: 11em ;
+    border: 4px double white;
+}
+.product-description{
+    font-size: 20px;
+    margin-top: 1em;
+}
+.product-price{
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
+footer{
+    background: #c291158f;
+    border: 4px double #c29115;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100px; 
+}
+
+.copyrigth{
+    color: white;
+}
+
+.logo-footer{
+    width: 3rem;
+    padding: 2px;
+}

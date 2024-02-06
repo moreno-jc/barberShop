@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><img src="/src/logo-head.png" /> - Barberia Alura</title>
+    <link rel="icon" href="/src/logo.png" type="image/x-icon">
+    <title>Barberia Alura</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Merriweather+Sans:wght@400;700;800&display=swap" rel="stylesheet">
@@ -16,14 +17,17 @@
     <header>
         <div class="nav-container">
             <nav>
-                <ul>                
+                <ul>   
                     <li><a href="productos.html">Productos</a></li>
+                    <li><a href="agenda.html">Citas</a></li>
+
                     <li>
                         <a href="index.html">
                             <img src="/src/logo-blanco.png" class="logo-nav"/>
                         </a>
                     </li>
-                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="referencias.html">Referencias</a></li>
+                    <li><a href="bolsa_Trabajo.html">Unete</a></li>             
                 </ul>
             </nav>
         </div>
@@ -33,32 +37,32 @@
             <h2>- Barber -</h2>
             <h4>Shop</h4>
         </div>
-        <div>
+        <div class="container-products">
             <ul class="list-products">
                 <li>
-                    <h2>Cabello</h2>
+                    <h2 class="title-product">Cabello</h2>
                     <img src="/src/cabello.jpg" class="products-img"/>
-                    <p>Con tijera o maquina, a gusto del cliente</p>
-                    <p>$10.00</p>
+                    <p class="product-description">Con tijera o maquina, a gusto del cliente</p>
+                    <p class="product-price">$10.00</p>
                 </li>
                 <li>
-                    <h2>Barba</h2>
+                    <h2 class="title-product">Barba</h2>
                     <img src="/src/barba.jpg" class="products-img"/>
-                    <p>Corte y diseño profesional de barba</p>
-                    <p>$08.00</p>
+                    <p class="product-description">Corte y diseño profesional de barba</p>
+                    <p class="product-price">$08.00</p>
                 </li>
                 <li>
-                    <h2>Cabello + Barba</h2>
+                    <h2 class="title-product">Cabello + Barba</h2>
                     <img src="/src/cabello+barba.jpg" class="products-img"/>
-                    <p>Paquete completo de cabello y barba</p>
-                    <p>$15.00</p>
+                    <p class="product-description">Paquete completo de cabello y barba</p>
+                    <p class="product-price">$15.00</p>
                 </li>
             </ul>
         </div>
-        
     </main>
     <footer>
-
+            <img src="/src/logo-blanco.png" class="logo-footer"/>
+            <p class="copyrigth">&copy; Copyrigth Barberia Alura - 2024</p>
     </footer>
 </body>
 </html>

@@ -1,0 +1,91 @@
+
+body{
+    background-color: black;
+}
+
+header {
+    width: 100%;
+}
+
+nav{
+    border-bottom: 4px double #c29115;
+
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+nav li{
+    display: inline;
+    list-style:none;
+    margin: 0 0 0 3rem;
+
+}
+nav a{
+    text-transform: uppercase;
+    color: #c291158f;
+    font-weight: bold;
+    font-family:'Archivo Black';
+    font-size: 20px;
+    text-decoration: none;
+}
+.logo-nav{
+    width: 6rem;
+    padding: 5px;
+}
+
+.text-title{
+    color: white;
+    text-align: center;
+    margin-top: 6rem;
+    font-family:'Merriweather Sans';
+    text-transform: uppercase;
+}
+h2{
+    font-weight: bold;
+    font-size: 3rem;
+    margin-left: 5rem;
+}
+
+h4{
+    letter-spacing: 1em;
+    word-spacing: 1em;
+    margin-left: 6rem;
+}
+
+.list-products{
+    width: 80%;
+    padding: 5em;
+    margin-inline-start: 5%;
+    margin-inline-end: 5%;
+}
+.list-products li{
+    margin: 1em 1em 1em 1em;
+    padding: .2em;
+    border-radius: 5%;
+    border: 4px double #c29115;
+    background-color: white;
+    color: black;
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+}
+
+.list-products h2{
+    font-weight: bold;
+    font-size: 2rem;
+
+}
+
+.products-img{
+    width: 12rem;
+    padding: 0;
+    margin: 0;
+}
+

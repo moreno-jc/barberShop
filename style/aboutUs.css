@@ -1,0 +1,87 @@
+body{
+    color: white;
+}
+.principal {
+    padding: 3em 3em;
+    background: #ffa7034f;
+    width: 70%;
+    margin: 3em auto; 
+    gap: 20px;
+
+}
+
+.titulo-principal{
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    margin: 0 0 3em;
+}
+
+p{
+    text-align: center;
+    line-height: 2;
+
+}
+
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em{
+    font-style: italic;
+}
+.utensilios{
+    width: 23%;
+    float:left;
+    margin: 0 20px 20px 0;
+}
+#mision{
+    font-size: 20px;
+}
+
+img + p{
+    margin-top: 3em;
+}
+
+.contenedor-mapa {
+    width: 100%;
+    margin-top: 5rem;
+    padding: 3em;
+    background: linear-gradient(#ffa7034f, #000000);
+}
+
+.diferenciales{
+    width: 100%;
+    padding: 3em 0 0 0;
+}
+
+.items{
+    font-style: italic;
+    line-height: 2;
+    margin-left: 1em;
+}
+
+.items:first-child {
+    font-weight: bold;
+}
+
+.lista-diferenciales {
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.ul-diferenciales{
+    display: inline-block;
+    width: 50%;
+    margin-top: 2em;
+}
+
+.img-diferenciales{
+    width: 490px;
+    float:left;
+    margin: 20px 20px 20px 20px;
+}
+
+

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/src/logo.png" type="image/x-icon">
+    <title>Contacto - Barberia Alura</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Merriweather+Sans:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style/reset.css">
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="/style/agenda.css">
+
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <nav>
+                <ul>   
+                    <li><a href="index.html">Productos</a></li>
+                    <li><a href="agenda.html">Citas</a></li>
+
+                    <li>
+                        <a href="index.html">
+                            <img src="/src/logo-blanco.png" class="logo-nav"/>
+                        </a>
+                    </li>
+                    <li><a href="aboutUs.html">Sobre nosotros</a></li>             
+                    <li><a href="referencias.html">Referencias</a></li>         
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="div-form container">
+                <form>
+                        <label for="name">Nombre y Apellido</label>
+                        <input class="input-form" type="text" id="name" name="name" required />
+            
+                        <label for="email">Correo electronico</label>
+                        <input class="input-form" type="email" id="email" name="email" placeholder="correo@dominio.com" required/>
+            
+                        <label for="cellPhone">Celular</label>
+                        <input class="input-form" type="number" id="cellPhone" name="cellPhone" placeholder="(XX) XX-XX-XX-XX"/>
+                        
+                        <label for="menssage" required>Mensaje</label>
+                        <textarea id="menssage"></textarea>                        
+                       
+                        <div>
+                            <p>¿A través de qué medio gusta ser contactado?</p>
+                            <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+                            <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono">Teléfono</label>
+                            <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
+                        </div>
+
+                        <label class="checkbox"><input type="checkbox">Le gustaría recibir novedades de la Barbería Alura?</label>
+
+                        <input class="input-send" type="submit" value="Enviar">
+                </form>
+        </section>
+    </main>
+    <footer>
+        <img src="/src/logo-blanco.png" class="logo-footer"/>
+        <p class="copyrigth">&copy; Copyrigth Barberia Alura - 2024</p>
+    </footer>
+</body>
+</html>

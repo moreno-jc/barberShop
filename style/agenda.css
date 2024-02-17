@@ -1,0 +1,64 @@
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.div-form{
+    margin: 2em;  
+    background-image: url(/src/bg.jpg);
+    padding: 1em;
+    width: 50%; 
+}
+
+form label, p {
+    display: block;
+    font-size: 10px;
+    font-weight: bold;
+    font-family:'Merriweather Sans';
+    text-transform: uppercase;
+    margin: 15px 0 0 10px;
+    color: white;
+}
+
+form .input-form{
+    display: block;
+    margin: 15px 0 0 10px;
+    padding: 10px 15px;
+    width: 70%;
+}
+
+form select{
+    display: block;
+    margin: 15px 0 0 10px;
+    padding: 10px 25px;
+    width: 33%;
+}
+
+form textarea{
+    display: block;
+    margin: 15px 0 0 10px;
+    padding: 10px 25px;
+    width: 70%;
+}
+
+form .input-send{
+    width: 40%;
+    background: orange;
+    border:1px solid white;
+    border-radius: 5px;
+    transition: 1s all;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 0;
+    margin: 15px 0 0 10px;
+    align-self: center!;
+    cursor: pointer;
+}
+
+form .input-send:hover{
+    background: darkorange;
+    transform: scale(1.1);
+}
+
+

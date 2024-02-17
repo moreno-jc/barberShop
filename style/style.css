@@ -1,6 +1,7 @@
 
 body{
     background-color: black;
+    font-family:'Merriweather Sans';
 }
 
 header {
@@ -9,8 +10,10 @@ header {
 
 nav{
     border-bottom: 4px double #c29115;
-
+    background: url(/src/diferenciales.jpg);
+    position:fixed;
 }
+
 nav ul {
     list-style: none;
     display: flex;
@@ -30,38 +33,36 @@ nav a{
     color: #c291158f;
     font-weight: bold;
     font-family:'Archivo Black';
-    font-size: 20px;
+    font-size: 15px;
     text-decoration: none;
 }
 
 nav a:hover{
-    color: #c29115;
     text-decoration: underline;
+    color: #c29115;
 }
 .logo-nav{
-    width: 6rem;
+    width: 3rem;
     padding: 5px;
 }
 
 .text-title{
     color: white;
     text-align: center;
-    margin-top: 6rem;
-    font-family:'Merriweather Sans';
+    margin-top: 4rem;
     text-transform: uppercase;
 }
 
 
 .text-title h2{
     font-weight: bold;
-    font-size: 3rem;
-    margin-left: 5rem;
+    font-size: 2rem;
 }
 
 h4{
     letter-spacing: 1em;
     word-spacing: 1em;
-    margin-left: 6rem;
+    margin-left: .5rem;
 }
 
 .container-products{
@@ -96,8 +97,7 @@ h4{
     display: inline-block;
     text-align: center;
     width: 30%;
-    height: 25em; 
-    
+    height: 22em; 
 }
 
 .list-products li:hover{
@@ -108,12 +108,12 @@ h4{
 }
 
 .list-products li:hover h2{
-    font-size: 35px;
+    font-size: 20px;
 }
 
 .list-products h2{
+    font-size: 25px;
     font-weight: bold;
-    font-size: 2rem;
 }
 
 .products-img{
@@ -123,12 +123,12 @@ h4{
     border: 4px double white;
 }
 .product-description{
-    font-size: 20px;
+    font-size: 17px;
     margin-top: 1em;
 }
 .product-price{
     font-weight: bold;
-    font-size: 25px;
+    font-size: 20px;
     margin-top: 1em;
     margin-bottom: 1em;
 }
@@ -148,6 +148,7 @@ footer{
 }
 
 .logo-footer{
-    width: 3rem;
+    width: 2rem;
     padding: 2px;
 }
+
